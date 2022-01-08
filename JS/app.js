@@ -47,10 +47,8 @@ window.addEventListener("scroll", () => {
 icon.addEventListener("click", () => {
   if (ul.style.display == "block") {
     ul.style.display = "none";
-    icon.style.color = "";
   } else {
     ul.style.display = "block";
-    icon.style.color = "black";
   }
 });
 //End Events & Functions
